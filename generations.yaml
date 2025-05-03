@@ -1,0 +1,35 @@
+generations:
+  - name: "First Generation (E23)"
+    start_year: 1977
+    end_year: 1987
+    description: "The original BMW 7 Series established the brand in the full-size luxury sedan segment. Available with inline-six engines ranging from 2.5L to 3.5L, it featured advanced technology for its time including an on-board computer, climate control, and anti-lock brakes on later models. The E23 combined luxury with BMW's driver-focused philosophy."
+
+  - name: "Second Generation (E32)"
+    start_year: 1986
+    end_year: 1994
+    description: "The E32 introduced V12 power to the 7 Series with the 750i/iL, alongside inline-six and V8 options. Available in standard and long-wheelbase versions, it featured innovative technology including integrated telephone and fax machine options, electronic damper control, and dual-zone climate control. The E32 enhanced BMW's reputation in the luxury segment with its combination of performance and refinement."
+
+  - name: "Third Generation (E38)"
+    start_year: 1994
+    end_year: 2001
+    description: "Often considered the most elegant 7 Series, the E38 featured classic styling combined with modern technology. Engine options included inline-six, V8, and V12 units, with five-speed automatic transmission. Notable innovations included GPS navigation, an integrated cell phone, and the introduction of side airbags. The E38 achieved cultural significance through appearances in films and maintained an ideal balance of luxury, technology, and driving dynamics."
+
+  - name: "Fourth Generation (E65/E66)"
+    start_year: 2001
+    end_year: 2008
+    description: "The controversial E65/E66 represented a radical departure with its avant-garde styling and revolutionary technology. It introduced iDrive, electronic gear selection, adaptive air suspension, and active anti-roll bars. Available with six, eight, and twelve-cylinder engines in standard (E65) and long-wheelbase (E66) formats, it also offered the first hydrogen-powered production BMW in limited markets. Though initially polarizing, this generation pioneered technologies that later became industry standards."
+
+  - name: "Fifth Generation (F01/F02)"
+    start_year: 2008
+    end_year: 2015
+    description: "The F01/F02 returned to more conservative styling while advancing technology with an enhanced iDrive system, night vision with pedestrian detection, and integral active steering. Engine options ranged from efficient six-cylinders to powerful V12s, with the ActiveHybrid 7 introducing electrification to the lineup. This generation emphasized efficiency alongside luxury and performance with features like brake energy regeneration and an eight-speed automatic transmission."
+
+  - name: "Sixth Generation (G11/G12)"
+    start_year: 2015
+    end_year: 2022
+    description: "The G11/G12 introduced carbon-fiber-reinforced polymer in its structure for reduced weight, advanced semi-autonomous driving capabilities, and gesture control. Powertrain options expanded to include plug-in hybrid technology alongside conventional engines ranging from four-cylinders to the powerful V12 in the M760Li. This generation represented a technological tour de force while returning to more elegant styling."
+
+  - name: "Seventh Generation (G70)"
+    start_year: 2022
+    end_year: null
+    description: "The latest 7 Series features a bold new design language with split headlights and an illuminated kidney grille. Available with combustion engines, plug-in hybrid technology, and as the all-electric i7, it emphasizes digital luxury with features like the BMW Theater Screen, a 31-inch rear entertainment display. Technology highlights include automated driving capabilities and an augmented reality navigation display. Throughout its evolution, the 7 Series has represented BMW's technological flagship, combining luxury, innovation, and driving dynamics in the full-size premium segment."
