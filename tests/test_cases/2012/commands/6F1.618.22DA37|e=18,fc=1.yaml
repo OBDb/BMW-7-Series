@@ -1,0 +1,82 @@
+command_id: 6F1.618.22DA37|e=18,fc=1
+test_cases:
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 248
+    BMW_TIME_S: 22
+  response: |-
+    618F1100F62DA370116
+    618F121F80600001619
+    618F1220000A613FFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 252
+    BMW_TIME_S: 22
+  response: |-
+    618F1100F62DA370116
+    618F121FC4F00001619
+    618F1220000A613FFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 47
+    BMW_TIME_S: 24
+  response: |-
+    618F1100F62DA370118
+    618F1212F38000016F6
+    618F1220000A63AFFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 47
+    BMW_TIME_S: 24
+  response: |-
+    618F1100F62DA370118
+    618F1212FCE000016F6
+    618F1220000A63AFFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 53
+    BMW_TIME_S: 24
+  response: |-
+    618F1100F62DA370118
+    618F1213530000016F6
+    618F1220000A63AFFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 137
+    BMW_TIME_S: 24
+  response: |-
+    618F1100F62DA370118
+    618F12189F40000175D
+    618F1220000A63AFFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 186
+    BMW_TIME_S: 24
+  response: |-
+    618F1100F62DA370118
+    618F121BAD700001761
+    618F1220000A63AFFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 227
+    BMW_TIME_S: 24
+  response: |-
+    618F1100F62DA370118
+    618F121E3CA00001777
+    618F1220000A63AFFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 3
+    BMW_TIME_S: 25
+  response: |-
+    618F1100F62DA370119
+    618F121033A00001779
+    618F1220000A63AFFFF
+- expected_values:
+    BMW_TIME_D: 1
+    BMW_TIME_M: 32
+    BMW_TIME_S: 25
+  response: |-
+    618F1100F62DA370119
+    618F12120F60000177B
+    618F1220000A63AFFFF
