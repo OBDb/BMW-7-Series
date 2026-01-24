@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/BMW_7_Series"
+
 generations:
   - name: "First Generation (E23)"
     start_year: 1977
@@ -26,10 +29,10 @@ generations:
 
   - name: "Sixth Generation (G11/G12)"
     start_year: 2015
-    end_year: 2022
-    description: "The G11/G12 introduced carbon-fiber-reinforced polymer in its structure for reduced weight, advanced semi-autonomous driving capabilities, and gesture control. Powertrain options expanded to include plug-in hybrid technology alongside conventional engines ranging from four-cylinders to the powerful V12 in the M760Li. This generation represented a technological tour de force while returning to more elegant styling."
+    end_year: null
+    description: "The G11/G12 introduced carbon-fiber-reinforced polymer in its structure for reduced weight, advanced semi-autonomous driving capabilities, and gesture control. Powertrain options expanded to include plug-in hybrid technology alongside conventional engines ranging from four-cylinders to the powerful V12 in the M760Li. This generation represented a technological tour de force while returning to more elegant styling. A minor styling facelift appeared in 2019 with a more prominent grille."
 
-  - name: "Seventh Generation (G70)"
+  - name: "Seventh Generation (G70/G73)"
     start_year: 2022
     end_year: null
-    description: "The latest 7 Series features a bold new design language with split headlights and an illuminated kidney grille. Available with combustion engines, plug-in hybrid technology, and as the all-electric i7, it emphasizes digital luxury with features like the BMW Theater Screen, a 31-inch rear entertainment display. Technology highlights include automated driving capabilities and an augmented reality navigation display. Throughout its evolution, the 7 Series has represented BMW's technological flagship, combining luxury, innovation, and driving dynamics in the full-size premium segment."
+    description: "The G70/G73 features a bold new design language with split headlights and an illuminated kidney grille, debuting in April 2022. Available with combustion engines (3.0-litre inline-6 and 4.4-litre V8), plug-in hybrid technology, and as the all-electric i7, it emphasizes digital luxury with features like the BMW Theater Screen, a 31-inch rear entertainment display. Technology highlights include automated driving capabilities and an augmented reality navigation display. No V12 engines are offered in this generation. Throughout its evolution, the 7 Series has represented BMW's technological flagship, combining luxury, innovation, and driving dynamics in the full-size premium segment."
