@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/BMW_7_Series"
+
 generations:
   - name: "First Generation (E23)"
     start_year: 1977
