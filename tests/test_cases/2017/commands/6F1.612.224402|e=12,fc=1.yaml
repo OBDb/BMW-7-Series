@@ -1,0 +1,23 @@
+command_id: 6F1.612.224402|e=12,fc=1
+test_cases:
+- expected_values:
+    BMW_EOT_V2: -60
+  response: 612F1056244020040
+- expected_values:
+    BMW_EOT_V2: -60
+  response: 612F10562440200C2
+- expected_values:
+    BMW_EOT_V2: -60
+  response: 612F10562440200C5
+- expected_values:
+    BMW_EOT_V2: -60
+  response: 612F10562440200C9
+- expected_values:
+    BMW_EOT_V2: -60
+  response: 612F10562440200CA
+- expected_values:
+    BMW_EOT_V2: -60
+  response: 612F10562440200CC
+- expected_values:
+    BMW_EOT_V2: -60
+  response: 612F10562440200CD
