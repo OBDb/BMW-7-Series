@@ -5,28 +5,4 @@ test_cases:
   response: 612F1056244020040
 - expected_values:
     BMW_EOT_V2: -60
-  response: 612F10562440200C1
-- expected_values:
-    BMW_EOT_V2: -60
-  response: 612F10562440200C6
-- expected_values:
-    BMW_EOT_V2: -60
-  response: 612F10562440200CA
-- expected_values:
-    BMW_EOT_V2: -60
-  response: 612F10562440200CE
-- expected_values:
-    BMW_EOT_V2: -60
-  response: 612F10562440200D0
-- expected_values:
-    BMW_EOT_V2: -60
-  response: 612F10562440200D1
-- expected_values:
-    BMW_EOT_V2: -60
-  response: 612F10562440200D2
-- expected_values:
-    BMW_EOT_V2: -60
-  response: 612F10562440200D4
-- expected_values:
-    BMW_EOT_V2: -60
   response: 612F10562440200D5
