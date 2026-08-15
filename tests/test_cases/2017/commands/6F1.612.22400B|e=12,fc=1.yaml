@@ -1,0 +1,8 @@
+command_id: 6F1.612.22400B|e=12,fc=1
+test_cases:
+- expected_values:
+    BMW_LAMBDA: 0
+  response: |-
+    612F1100F62400B06B8
+    612F12106BE0000007B
+    612F122FFFF0008FFFF
