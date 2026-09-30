@@ -1,11 +1,11 @@
 command_id: 6F1.612.224506|e=12,fc=1
 test_cases:
 - expected_values:
-    BMW_OIL_TEMP: 0
+    7SERIES_OIL_TEMP: 0
   response: 612F1056245060000
 - expected_values:
-    BMW_OIL_TEMP: 102
+    7SERIES_OIL_TEMP: 102
   response: 612F10562450666FA
 - expected_values:
-    BMW_OIL_TEMP: 103
+    7SERIES_OIL_TEMP: 103
   response: 612F10562450667AF
