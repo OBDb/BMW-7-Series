@@ -1,4 +1,4 @@
-command_id: 6F1.619.22DFE7|e=19,fc=1
+command_id: 6F1.619.22DFE7|e=19,fc=1,f=2015-
 test_cases:
 - expected_values:
     7SERIES_OIL_CHANGE_DIST: 156812

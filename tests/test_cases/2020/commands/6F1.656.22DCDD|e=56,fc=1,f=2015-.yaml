@@ -1,4 +1,4 @@
-command_id: 6F1.656.22DCDD|e=56,fc=1
+command_id: 6F1.656.22DCDD|e=56,fc=1,f=2015-
 test_cases:
 - expected_values:
     7SERIES_CENTRAL_LOCK: 1
