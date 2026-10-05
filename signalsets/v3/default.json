@@ -67,7 +67,7 @@
   "signals": [
     {"id": "7SERIES_HVBAT_SOC_V2", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
@@ -186,7 +186,7 @@
   "signals": [
     {"id": "7SERIES_BOOST_P_SET", "path": "Engine", "fmt": { "len": 16, "max": 255.99, "div": 256, "unit": "kilopascal" }, "name": "Boost pressure, set point"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB1"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB1"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
   ]},
@@ -226,7 +226,7 @@
   "signals": [
     {"id": "7SERIES_CAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 30, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_EOP", "path": "Movement", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Engine oil pressure"}
   ]},
@@ -386,12 +386,12 @@
     {"id": "7SERIES_TIME_S", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in s"},
     {"id": "7SERIES_TIME_M", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in m"}
   ]},
-{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DB32"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
     {"id": "7SERIES_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, set point torque"}
   ]},
-{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DFE7"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "619", "eax": "19", "fcm1": true, "cmd": {"22": "DFE7"}, "freq": 1, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_VGT_CAL_ANGLE",   "path": "Engine", "fmt": {            "len": 16, "max": 1000,    "mul": 156.25, "div": 10000, "unit": "degrees"    }, "name": "Variable geometry turbocharger calibration angle"},
     {"id": "7SERIES_OIL_CHANGE_DIST", "path": "Fluids", "fmt": {"bix": 304, "len": 32, "max": 1000000,                              "unit": "kilometers" }, "name": "Distance since last oil change"}
@@ -512,7 +512,7 @@
     {"id": "7SERIES_AC_COMP_STAT", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar"  }, "name": "Air conditioning compressor status"},
     {"id": "7SERIES_AC_COMP_PWM",  "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "percent" }, "name": "Air conditioning compressor PWM"}
   ]},
-{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_DOOR_DRIVER",         "path": "Doors",   "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
     {"id": "7SERIES_DOOR_PASSENGER",      "path": "Doors",   "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},
@@ -538,7 +538,7 @@
     {"id": "7SERIES_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
     {"id": "7SERIES_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_RANGE_E_CUR", "path": "Trips", "fmt": {           "len": 16, "max": 6553.5, "div": 10,                 "nullmax": 6553, "unit": "kilometers"    }, "name": "Current electric range",       "description": "Current estimated electric range"},
     {"id": "7SERIES_RANGE_E_MAX", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553.5, "div": 10,                 "nullmax": 6553, "unit": "kilometers"    }, "name": "Maximum electric range"},
