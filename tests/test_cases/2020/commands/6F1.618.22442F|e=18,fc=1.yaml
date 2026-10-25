@@ -1,0 +1,26 @@
+command_id: 6F1.618.22442F|e=18,fc=1
+test_cases:
+- expected_values:
+    7SERIES_ENG_TQ_6F1: 0
+  response: 618F10562442F0000
+- expected_values:
+    7SERIES_ENG_TQ_6F1: 22
+  response: 618F10562442F0016
+- expected_values:
+    7SERIES_ENG_TQ_6F1: 97
+  response: 618F10562442F0061
+- expected_values:
+    7SERIES_ENG_TQ_6F1: 130
+  response: 618F10562442F0082
+- expected_values:
+    7SERIES_ENG_TQ_6F1: 65475
+  response: 618F10562442FFFC3
+- expected_values:
+    7SERIES_ENG_TQ_6F1: 65507
+  response: 618F10562442FFFE3
+- expected_values:
+    7SERIES_ENG_TQ_6F1: 65533
+  response: 618F10562442FFFFD
+- expected_values:
+    7SERIES_ENG_TQ_6F1: 65535
+  response: 618F10562442FFFFF

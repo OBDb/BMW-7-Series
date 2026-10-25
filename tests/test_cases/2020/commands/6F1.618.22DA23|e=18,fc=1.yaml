@@ -6,20 +6,10 @@ test_cases:
     618F1100762DA230000
     618F1211C31FFFFFFFF
 - expected_values:
-    7SERIES_ODO_LOWRES: 73184
-  response: |-
-    618F1100762DA230000
-    618F12123BCFFFFFFFF
-- expected_values:
     7SERIES_ODO_LOWRES: 74240
   response: |-
     618F1100762DA230000
     618F1212440FFFFFFFF
-- expected_values:
-    7SERIES_ODO_LOWRES: 125784
-  response: |-
-    618F1100762DA230000
-    618F1213D6BFFFFFFFF
 - expected_values:
     7SERIES_ODO_LOWRES: 130168
   response: |-
@@ -30,3 +20,8 @@ test_cases:
   response: |-
     618F1100762DA230000
     618F1213FF4FFFFFFFF
+- expected_values:
+    7SERIES_ODO_LOWRES: 133968
+  response: |-
+    618F1100762DA230000
+    618F121416AFFFFFFFF
