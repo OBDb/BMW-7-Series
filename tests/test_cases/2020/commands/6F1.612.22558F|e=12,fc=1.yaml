@@ -1,0 +1,12 @@
+command_id: 6F1.612.22558F|e=12,fc=1
+test_cases:
+- expected_values:
+    7SERIES_ENG_HOURS: 2476.5
+  response: |-
+    612F1100762558F0000
+    612F1211359FFFFFFFF
+- expected_values:
+    7SERIES_ENG_HOURS: 2477
+  response: |-
+    612F1100762558F0000
+    612F121135AFFFFFFFF
