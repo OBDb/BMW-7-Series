@@ -328,15 +328,15 @@
   "signals": [
     {"id": "7SERIES_ENG_TQ_6F1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_ATF_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 65487, "min": -48, "add": -48, "nullmax": 65487, "unit": "celsius" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_KICKDOWN", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "scalar" }, "name": "Kickdown"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA22"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA22"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_TQ_CNVRT_LOCKUP", "path": "Transmission", "name": "Torque converter lockup", "fmt": {"bix": 8, "len": 8, "map": {
           "0": { "description": "Open",               "value": "OPEN" },
@@ -348,24 +348,24 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_ODO_LOWRES", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "nullmax": 1000000, "unit": "kilometers" }, "name": "Odometer, low resolution", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA25"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA25"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_EOT", "path": "Engine", "fmt": { "len": 16, "max": 65487, "min": -48, "add": -48, "nullmax": 65487, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA28"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2A"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2A"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
     {"id": "7SERIES_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "0": { "description": "Park",    "value": "PARK" },
@@ -380,7 +380,7 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_TIME_D", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in d"},
     {"id": "7SERIES_TIME_S", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in s"},
@@ -448,7 +448,7 @@
     {"id": "7SERIES_LATERAL_ACCELERATION",      "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 131.068,  "min": -131.072, "mul": 0.4,  "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"},
     {"id": "7SERIES_YAW_RATE",                  "path": "Engine",   "fmt": {"bix": 48, "len": 16, "max": 131.068,  "min": -131.072, "mul": 0.4,  "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Yaw rate"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "7SERIES_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
@@ -529,11 +529,11 @@
     {"id": "7SERIES_RANGE_COMF", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated range remaining in comfort mode", "suggestedMetric": "electricRange"},
     {"id": "7SERIES_RANGE",      "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated range remaining",                 "suggestedMetric": "electricRange"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Speedometer vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
     {"id": "7SERIES_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
@@ -547,7 +547,7 @@
     {"id": "7SERIES_RANGE_E_USE", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65.535, "div": 1000, "nullmin": 0, "nullmax": 65,   "unit": "kilowattHours" }, "name": "Electric consumption / 100km"},
     {"id": "7SERIES_AUX_PWR",     "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 655.35, "div": 100,                "nullmax": 655,  "unit": "kilowatts"     }, "name": "Auxiliary power consumption"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
@@ -569,7 +569,7 @@
     {"id": "7SERIES_NBT_WHL_SPD_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 4"},
     {"id": "7SERIES_GPS_SPD",       "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Speed from satellite positioning"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "7SERIES_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
